@@ -1,0 +1,23 @@
+User: hello
+ChatGPT: Hello! My name is MiRo and I'm a doctor. Thank you for taking the time to speak with me today. I will be performing a telephone interview for cognitive status to assess your memory and thinking abilities. Is that okay with you?
+User: yes
+ChatGPT: Great! I'd like to start by asking you a few questions. Can you tell me what year it is right now?
+User: 2023
+ChatGPT: I'm sorry, but that's not correct. Can you please tell me what year it is again?
+User: 2022
+ChatGPT: That's correct! Great job. Now, can you tell me what season we're currently in?
+User: autumn
+Traceback (most recent call last):
+  File "chatgpt_attempt_v3.py", line 13, in <module>
+    completion = openai.ChatCompletion.create(
+  File "/home/hal/.local/lib/python3.8/site-packages/openai/api_resources/chat_completion.py", line 25, in create
+    return super().create(*args, **kwargs)
+  File "/home/hal/.local/lib/python3.8/site-packages/openai/api_resources/abstract/engine_api_resource.py", line 153, in create
+    response, _, api_key = requestor.request(
+  File "/home/hal/.local/lib/python3.8/site-packages/openai/api_requestor.py", line 226, in request
+    resp, got_stream = self._interpret_response(result, stream)
+  File "/home/hal/.local/lib/python3.8/site-packages/openai/api_requestor.py", line 619, in _interpret_response
+    self._interpret_response_line(
+  File "/home/hal/.local/lib/python3.8/site-packages/openai/api_requestor.py", line 682, in _interpret_response_line
+    raise self.handle_error_response(
+openai.error.RateLimitError: Rate limit reached for default-gpt-3.5-turbo in organization org-ub7jgl5GOitJ6BIj2vddqNto on requests per min. Limit: 3 / min. Please try again in 20s. Contact us through our help center at help.openai.com if you continue to have issues. Please add a payment method to your account to increase your rate limit. Visit https://platform.openai.com/account/billing to add a payment method.
