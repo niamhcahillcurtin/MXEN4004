@@ -11,6 +11,9 @@ Relevant Results for the CST activities can be found here:
 CST My Life Now screen recordings https://www.youtube.com/watch?v=4_nlz5gabBQ&list=PLlhZD5S-mxlZ_uwIUVUX_EdEwLCJmytNr
 CST Odd One Out screen recordings https://www.youtube.com/watch?v=iMyE3yeejzY&list=PLlhZD5S-mxlakS-vMqzUYveNlxA_k60Kd
 
+Quick video of speech recognition for presentation
+https://www.youtube.com/watch?v=pGUeLMbeV-k
+
 Thanks,
 Niamh 
 
